@@ -1,0 +1,94 @@
+body{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	margin:0;
+}
+
+#bungkus1{
+	width:100%;
+	height:100%;
+	background-color: #ECA3FF;
+	position: fixed;
+}
+
+#box1{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin:4% 15% 5% 15% ;
+	background-color: white;
+    width:70%;
+    height:80%;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #1D0623;
+}
+
+.photo{
+	padding:5%;
+	border-right: 2px dashed;
+}
+
+.index{
+	padding:5%;
+	height:100%;
+	width:100%;
+}
+
+.flexcon{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 3%;
+}
+
+.item{
+	font-weight: bold;
+	border-bottom: 1px solid;
+	border-color: #5f1854;
+	padding-bottom:10px; 
+	width:25%;
+}
+
+#nama{
+	font-family: 'Pacifico', cursive;
+	font-size: 70px;
+}
+
+#pb{
+	margin-top:-6%;
+	font-size: 15px;
+}
+
+#quotes{
+	padding: 10%;
+	font-size: 25px; 
+}
+
+#cek{
+	margin-top: 5%;  
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 50px;
+}
+
+#welcome{  
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 20px;
+	padding-bottom: 5%; 
+}
+
+.footer{
+	position: fixed;
+	bottom:0;
+	text-align: center;
+	width:100%;
+	font-size:12px; 
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover{
+	color:#B224D6;
+}
