@@ -25,6 +25,13 @@ body{
 	position: fixed;
 }
 
+#bungkus4{
+	width:100%;
+	height:100%;
+	background-color: #FFF242;
+	position: fixed;
+}
+
 #box1{
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -59,6 +66,18 @@ body{
     position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #34591E;
+}
+
+#box4{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin:4% 15% 5% 15% ;
+	background-color: #faf6e9;
+    width:70%;
+    height:80%;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #5A5D00;
 }
 
 .photo{
@@ -140,6 +159,10 @@ a {
 	color:#83FF00;
 }
 
+#box4 a:hover{
+	color:#F6FF00;
+}
+
 #box1 .active{
 	text-decoration: inherit;
 	color:#B224D6;
@@ -156,6 +179,12 @@ a {
 	text-decoration: inherit;
 	color:#83FF00;
 	border-color: #83FF00;
+}
+
+#box4 .active{
+	text-decoration: inherit;
+	color:#F6FF00;
+	border-color: #F6FF00;
 }
 
 .judul{
@@ -181,4 +210,8 @@ a {
 
 .fa{
 	width: 25px;
+}
+
+.portfolio{
+	overflow: scroll;
 }
