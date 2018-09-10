@@ -213,5 +213,12 @@ a {
 }
 
 .portfolio{
-	overflow: scroll;
+	position: fixed;
+	height:100%;
+	overflow: hidden;
+}
+
+.mdd{
+	display:grid;
+	grid-template-columns: auto auto auto; 
 }
