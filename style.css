@@ -18,6 +18,12 @@ body{
 	position: fixed;
 }
 
+#bungkus3{
+	width:100%;
+	height:100%;
+	background-color: #AEFF7C;
+	position: fixed;
+}
 
 #box1{
 	display: grid;
@@ -41,6 +47,18 @@ body{
     position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #254E66;
+}
+
+#box3{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin:4% 15% 5% 15% ;
+	background-color: #faf6e9;
+    width:70%;
+    height:80%;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #34591E;
 }
 
 .photo{
@@ -118,6 +136,10 @@ a {
 	color:#91D6FF;
 }
 
+#box3 a:hover{
+	color:#83FF00;
+}
+
 #box1 .active{
 	text-decoration: inherit;
 	color:#B224D6;
@@ -128,6 +150,12 @@ a {
 	text-decoration: inherit;
 	color:#91D6FF;
 	border-color: #91D6FF;
+}
+
+#box3 .active{
+	text-decoration: inherit;
+	color:#83FF00;
+	border-color: #83FF00;
 }
 
 .judul{
@@ -144,4 +172,13 @@ a {
 	padding-top:1%;
 	text-align: left;
 	font-size:15px;
+}
+.center{
+	font-weight: bold;
+	font-size:25px;
+	text-align: center;
+}
+
+.fa{
+	width: 25px;
 }
